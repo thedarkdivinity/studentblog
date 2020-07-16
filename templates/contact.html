@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license 
+-->
+<html>
+  <head>
+    <title>Student Blog</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    
+    <link href="{{url_for('static',filename='assets/css/main.css')}}" rel="stylesheet" type="text/css">
+   
+  </head><footer id="footer">
+  <section>
+    <form method="post" action="/contactus">
+      <div class="fields">
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" />
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email" />
+        </div>
+        <div class="field">
+          <label for="phone">phone</label>
+          <input type="tel" name="phone" id="phone"/>
+        </div>
+        <div class="field">
+          <label for="message">message</label>
+          <textarea type="tel" name="message" id="message"></textarea>
+        </div>
+      </div>
+      <ul class="actions">
+        <li><input type="submit" value="Send Message" /></li>
+      </ul>
+    </form>
+  </section>
+  <section class="split contact">
+    <section class="alt">
+      <h3>Address</h3>
+      <p>
+        1234 Somewhere Road #87257<br />
+        Nashville, TN 00000-0000
+      </p>
+    </section>
+    <section>
+      <h3>Phone</h3>
+      <p><a href="#">(000) 000-0000</a></p>
+    </section>
+    <section>
+      <h3>Email</h3>
+      <p><a href="#">info@untitled.tld</a></p>
+    </section>
+    <section>
+      <h3>Social</h3>
+      <ul class="icons alt">
+        <li>
+          <a href="#" class="icon brands alt fa-twitter"
+            ><span class="label">Twitter</span></a
+          >
+        </li>
+        <li>
+          <a href="#" class="icon brands alt fa-facebook-f"
+            ><span class="label">Facebook</span></a
+          >
+        </li>
+        <li>
+          <a href="#" class="icon brands alt fa-instagram"
+            ><span class="label">Instagram</span></a
+          >
+        </li>
+        <li>
+          <a href="#" class="icon brands alt fa-github"
+            ><span class="label">GitHub</span></a
+          >
+        </li>
+      </ul>
+    </section>
+  </section>
+</footer>
